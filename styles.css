@@ -1,0 +1,43 @@
+p {
+  color: black;
+}
+
+body {
+  background-color: #FFD662FF;
+  font-family: Verdana, sans-serif;
+  color: black;
+}
+
+header {
+  /* background-color: yellow; */
+  /* background-color: rgb(120, 25, 10); */
+  /* background-color: rgba(120, 25, 10, 1); */
+  background-color: #FFD662FF;
+}
+
+section {
+  background-color: #FFD662FF;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article {
+  background-color: #00539CFF;
+  margin: 4px;
+  padding: 13px;
+}
+
+footer {
+  background-color: #00539CFF;
+  padding: 10px;
+}
+
+a {
+  color: #6E6E6DFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
